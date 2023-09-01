@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+h1 {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div> h1 {
+     margin: 50px;
+    }
+
+.khayat {
+    color: darkblue;
+}
+
+.grid-container {
+      display: grid;
+      grid-template-columns: 0.5fr 2.5fr;
+      column-gap: 10px; row-gap: 10px; 
+      
+    }
+
+    .grid-right {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 50px;
+    }    
+
+.left {
+    background-color: darkblue;
+       color: white;
+    }
+
+.main {
+    background-color: black;
+       color: white;
+    }
+    
+.C1 {
+    margin: 50px;
+}
+
+img {
+    border: 20px;
+ }
+
+li {
+    margin: 50px;
+    font-size:2rem ;} 
+
+.personal {
+    float: left;
+    margin-right: 20px;
+   
+}    
+
+.first {
+      grid-column: span 2;
+      margin: 0px; margin-top: 50px;
+    }
+
+</style>
+<h1 style="size: 0px;"></h1>
+</head>
+<body>
+    <div class="grid-container" style="margin-top: 0px;"> 
+
+<div class="first">
+<img class="personal" src="./personal.jpeg" height="200px" style="border-radius: 50%;">
+<H1>Abdelrahman <span class="khayat">Khayat</span></H1>
+</div>
+
+
+
+  <div class="left">
+    <h1> Navigate bar </h1>
+
+   <ul>
+       <li>
+        <a href="./about.html" style="color: white;"> About </a>
+       </li>
+       <li>
+        <a href="./contact.html" style="color: white;"> Contact</a>
+       </li>
+       <li>
+        <a href="https://goo.gl/maps/ofnAR1NcTJg4Y8G8A" style="color: white;"> Location </a>
+       </li>
+     
+   </ul>
+
+  </div>
+
+  <div class="main"> 
+
+    <h1> Latest</h1>
+    <div class="grid-right">
+        <div class="C1">
+            <img src="./Course by DataCamp.png" alt="UIpath" width="100%">
+            <h2> SQL </h2>   
+        </div>
+
+        <div class="C1">
+            <img src="./Couse by uipath.png" alt="UIpath" width="100%">
+            <h2> RPA </h2>   
+        </div>
+
+        </div>
+  </div>
+</div>
+    
+</body>
+</html>
